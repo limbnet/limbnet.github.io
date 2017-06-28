@@ -1,0 +1,54 @@
+/*
+ * Animation control buttons
+ */
+#timeControls {
+    width: 450px;
+    padding: 5px 0px 5px 0px;
+}
+
+#timeControls button {
+    width: 33%;
+    height: 2em;
+    margin: 0;
+    padding: 0;
+    background-color: #EEEEEE;
+    border: 1px solid black;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+} 
+
+/*
+ * The time slider
+ */
+#timeSlider {
+    height: 48px;
+    width: 450px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+/*
+ * The main canvas element
+ */
+#mainDrawing {
+    margin: 0px;
+    border: 1px solid #000000; 
+    padding: 0px;
+}
+
+#speciesList button {
+    width: 150px;
+    background-color: #EEEEEE;
+    border: 1px solid black;
+    color: black;
+    margin: 5px;
+    padding: 2px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
