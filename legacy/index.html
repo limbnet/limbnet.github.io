@@ -3,33 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>Morphomovie</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app" style="width:450px">
+    <h1>Morphomovie experiment</h1>
+    <a href="https://github.com/limbnet/limbnet.github.io">More information.</a>
 
-        <h1>Morphomovie experiment</h1>
-		<a href="https://github.com/limbnet/limbnet.github.io">More information.</a>
+    <div id="dataLoading">
+        <hr/>
+        <button id="dataLoadButton">Load morphomovie</button>
+        <span id="dataStatus"></span>
+        <br/>
+        <progress id="progressBar" value="0" max="100" style="width:450px;"></progress>
+        <hr/>
+    </div>
 
-        <h2>Time: <span id = "timePoint"> </span></h2>
+    <h2>Time: <span id = "timePoint"> </span></h2>
 
-        <div id = "timeControls" > </div>
-        </br>
+    <div id = "timeControls" > </div>
+    </br>
 
-        <input id = "timeSlider" type="range" min="0" max="100" value="0" step="1" >
-        </br>
+    <input id = "timeSlider" type="range" min="0" max="100" value="0" step="1" >
+    </br>
 
-        <canvas id="mainDrawing" width="450" height="300"> </canvas>
+    <canvas id="mainDrawing" width="450" height="300"> </canvas>
 
-        <h2>Chemical species: </h2>
-        <div id = "speciesList"> </div>
-        <!-- Add here radio buttons to load the corresponding species... -->
-
-        <script src="bundle.js"></script>
-        <!--
-        <script src="js/lib/DataStream.js"></script>
-        <script src="js/mm-experiment.js"></script>
-        -->
-
-    </body>
+    <h2>Chemical species: </h2>
+    <div id = "speciesList"> </div>
+</div>
+<script src="bundle.js"></script>
+</body>
 </html>
 
