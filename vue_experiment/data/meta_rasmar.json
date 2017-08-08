@@ -1,0 +1,19 @@
+{
+  "name": "rasmar",
+  "base": "morphomovie",
+  "species": {
+    "sim_sox9": 0,
+    "sim_wnt": 1,
+    "sim_bmp": 2,
+    "fgf8sig": 3,
+    "hoxd13": 4,
+    "smad": 5
+  },
+  "streamFormat": [
+    "concentrations", ["[]", [
+      "t", "float32",
+      "nTris", "int32",
+      "chem", ["[]", ["[]", "float32", "nTris"], "nChem"]
+    ], "*"]
+  ]
+}

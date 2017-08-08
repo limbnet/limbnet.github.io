@@ -1,0 +1,24 @@
+{
+  "name": "test-rasmar",
+  "base": "",
+  "species": {
+    "sim_sox9": 0,
+    "sim_wnt": 1,
+    "sim_bmp": 2,
+    "fgf8sig": 3,
+    "hoxd13": 4,
+    "smad": 5
+  },
+  "streamFormat" : [
+    "morphomovie", ["[]", [
+      "t", "float32",
+      "nVerts", "int32",
+      "verts", ["[]", ["[]", "float32", 2], "nVerts"],
+      "nTris", "int32",
+      "tris", ["[]", ["[]", "int32", 3], "nTris"],
+      "nChem", "int32",
+      "chem", ["[]", ["[]", "float32", "nTris"], "nChem"]
+    ], "*"]
+  ]
+
+}

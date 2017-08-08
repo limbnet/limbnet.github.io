@@ -1,0 +1,13 @@
+{
+  "name": "morphomovie",
+  "base": "",
+  "streamFormat": [
+    "morphomovie", ["[]", [
+      "t", "float32",
+      "nVerts", "int32",
+      "verts", ["[]", ["[]", "float32", 2], "nVerts"],
+      "nTris", "int32",
+      "tris", ["[]", ["[]", "int32", 3], "nTris"]
+    ], "*"]
+  ]
+}
