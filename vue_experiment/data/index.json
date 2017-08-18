@@ -1,37 +1,37 @@
 [
   {
     "name": "base morphomovie",
-    "data": "morphomovie.blob",
-    "metadata": "meta-morphomovie.json"
+    "dataFile": "morphomovie.blob",
+    "metadata": "meta_morphomovie.json"
   },
   {
     "name": "raspopovic: fgf signal (data)",
-    "data": "rasmar_fgf8sig.blob",
-    "metadata": "meta-rasmar.json"
+    "dataFile": "rasmar_fgf8sig.blob",
+    "metadata": "meta_rasmar.json"
   },
   {
     "name": "raspopovic: hoxd13 signal (data)",
-    "data": "rasmar_hoxd13.blob",
-    "metadata": "meta-rasmar.json"
+    "dataFile": "rasmar_hoxd13.blob",
+    "metadata": "meta_rasmar.json"
   },
   {
     "name": "raspopovic: smad signal (data)",
-    "data": "rasmar_smad4.blob",
-    "metadata": "meta-rasmar.json"
+    "dataFile": "rasmar_smad4.blob",
+    "metadata": "meta_rasmar.json"
   },
   {
     "name": "raspopovic: bmp signal (model)",
-    "data": "rasmar_sim_bmp.blob",
-    "metadata": "meta-rasmar.json"
+    "dataFile": "rasmar_sim_bmp.blob",
+    "metadata": "meta_rasmar.json"
   },
   {
     "name": "raspopovic: wnt signal (model)",
-    "data": "rasmar_sim_wnt.blob",
-    "metadata": "meta-rasmar.json"
+    "dataFile": "rasmar_sim_wnt.blob",
+    "metadata": "meta_rasmar.json"
   },
   {
     "name": "raspopovic: sox9 signal (model)",
-    "data": "rasmar_sim_sox9.blob",
-    "metadata": "meta-rasmar.json"
+    "dataFile": "rasmar_sim_sox9.blob",
+    "metadata": "meta_rasmar.json"
   }
 ]
